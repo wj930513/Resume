@@ -164,10 +164,6 @@ img {
     }
 }
 
-.table-container {
-    overflow-y: auto;  
-    border: 1px solid #223344; 
-}
 
 
 
@@ -237,5 +233,6 @@ img {
         overflow-x:auto;
     }
 }
+
 
 
