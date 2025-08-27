@@ -155,7 +155,7 @@ img {
         position: relative;
     }
     td::before {
-        content: attr(data-label); /* 將表頭放入每個 td */
+        content: attr(data-label); /
         position: absolute;
         left: 10px;
         width: 45%;
@@ -163,6 +163,12 @@ img {
         font-weight: bold;
     }
 }
+
+.table-container {
+    overflow-y: auto;  
+    border: 1px solid #223344; 
+}
+
 
 
 @media (max-width:768px){
@@ -231,4 +237,5 @@ img {
         overflow-x:auto;
     }
 }
+
 
